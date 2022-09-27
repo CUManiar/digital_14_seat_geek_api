@@ -50,7 +50,8 @@ class EventListDetails extends StatelessWidget {
                 padding: const EdgeInsets.all(10.0),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(12.0),
-                  child: Image.network("$image", fit: BoxFit.fill),
+                  child: image != null ? Image.network("$image", fit: BoxFit.fill) :
+                    Icon(Icons.face),
                 ),
               ),
             ),

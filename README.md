@@ -17,7 +17,11 @@ Type Ahead Searching App from Seat Geek API
 3.	[x] Type ahead results should reflect the favorite state of each event
 4.	[x] Favorite results should be saved between launches of the app
 
+![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_X9BiXv/Screenshot 2022-09-27 at 22.32.29.png)
 
+![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_ADxFpx/Screenshot 2022-09-27 at 22.32.59.png)
+
+![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_d3H4qn/Screenshot 2022-09-27 at 22.33.15.png)
 
 ## Getting Started
 

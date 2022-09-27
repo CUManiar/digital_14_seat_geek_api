@@ -53,7 +53,10 @@ class SearchPage extends StatelessWidget {
                                 width: 5.0,
                               ) :
                               IconButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  var providerData = context.read<SearchProvider>();
+                                  providerData.clearData();
+                                },
                                 icon: const Icon(
                                     Icons.close_outlined,
                                   size: 18.0,
@@ -127,9 +130,9 @@ class SearchPage extends StatelessWidget {
                               },
                               child: EventListDetails(
                                  title: value.searchModel!.events![index].title!,
-                                 image: value.searchModel!.events![index].performers![0].image!,
-                                 date: '${DateFormat('EEE').format(value.searchModel!.events![index].announceDate!)}, ${DateFormat('dd MMM yyyy').format(value.searchModel!.events![index].announceDate!)} ${DateFormat.jm().format(value.searchModel!.events![index].announceDate!)} ',
-                                 location: '${value.searchModel!.events![index].venue!.city}, ${value.searchModel!.events![index].venue!.country}',
+                                  image: value.searchModel!.events![index].performers![0].image,
+                                  location: '${value.searchModel!.events![index].venue!.city}, ${value.searchModel!.events![index].venue!.country}',
+                                  date: '${DateFormat('EEE').format(value.searchModel!.events![index].announceDate!)}, ${DateFormat('dd MMM yyyy').format(value.searchModel!.events![index].announceDate!)} ${DateFormat.jm().format(value.searchModel!.events![index].announceDate!)} ',
                                  eventId: value.searchModel!.events![index].id.toString()
                               ),
                             );
