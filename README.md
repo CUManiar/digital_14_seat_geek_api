@@ -2,7 +2,7 @@
 
 Type Ahead Searching App from Seat Geek API
 
-### Requirements
+### Requirements [Checked items are finished]
 
 1.	[x] Write a type ahead against the Seat Geek API - (search view with results – Search and Listing screen)
 2.	[x] Make a detail screen so the user can drill down into a result
@@ -18,34 +18,109 @@ Type Ahead Searching App from Seat Geek API
 4.	[x] Favorite results should be saved between launches of the app
 
 
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+**Step 1:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-**Dependancies**
-
-To install dependancies one can go in `pubspec.yaml` and paste below content
-and upgrade their project.
+Download or clone this repo by using the link below:
 
 ```
-http: ^0.13.4                     # API Interactions
-provider: ^6.0.3                  # Flutter State Management
-go_router: ^4.2.2                 # Route Management 
-intl: ^0.17.0                     # Date & Time Operations
-hive: ^2.2.3                      # Offline Database support [To get liked 
-									events in between app launch]
-hive_flutter: ^1.1.0              # Offline Database support [To get liked 
-									events in between app launch] 
-                                    - Flutter Support
-flutter_easyloading: ^3.0.5       #	Added to display show loader without 
-									context
+https://github.com/CUManiar/digital_14_seat_geek_api
 ```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies:
+
+```
+flutter pub get 
+```
+**Step 3:**
+
+Go to project root and execute the following command in console to get the required dependencies:
+
+```
+flutter run
+```
+
+### Libraries & Tools Used
+
+* [http](https://pub.dev/packages/http)
+* [Database](https://pub.dev/packages/hive), (https://pub.dev/packages/hive_flutter)
+* [Provider](https://pub.dev/packages/provider) (State Management)
+* [Route Managment](https://pub.dev/packages/go_router)
+* [Internationalization](https://pub.dev/packages/intl)
+* [Toasts](https://pub.dev/packages/flutter_easyloading)
+
+### Added Testing for API
+
+```
+ test\widget_test.dart 
+```
+
+### Folder Structure
+
+
+
+Here is the folder structure used in this project
+
+```
+lib/
+ src/
+ |- components/
+ |- configs/
+ |- constants/
+ |- models/
+ |- pages/
+ |- providers/
+ |- routes/
+ |- services/
+ |- my_app.dart
+|- main.dart
+
+```
+
+
+## Building apk
+
+**Step 1:**
+
+Run the following commands in the terminal
+For Android Build
+```
+flutter build apk
+```
+For iOS Build
+```
+flutter build ipa
+```
+**Step 2:**
+
+For Android navigate to
+```
+Go to project\build\app\outputs\flutter-apk\digital_14.apk
+```
+For iOS navigate to
+```
+Go to project\build\ios\ipa\digital_14.ipa
+```
+
+
+
+## Running apk in Development Environment or Simulators
+
+**iOS**
+
+
+1. Start the terminal and cd to the project directory
+2. Run command: `open -a Simulator` - It will open up the iOS device
+3. Run Command: `flutter run` - It will start the app in the iOS Simulator
+
+
+**Android**
+
+1. Start the Android Studio
+2. Run your preferred Android Device from Device Manager
+3. Play the `Play` button from navigation bar which will start the app in the android simulator
