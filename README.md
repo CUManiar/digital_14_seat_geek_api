@@ -17,11 +17,10 @@ Type Ahead Searching App from Seat Geek API
 3.	[x] Type ahead results should reflect the favorite state of each event
 4.	[x] Favorite results should be saved between launches of the app
 
-![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_X9BiXv/Screenshot 2022-09-27 at 22.32.29.png)
 
-![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_ADxFpx/Screenshot 2022-09-27 at 22.32.59.png)
+<img width="332" alt="Screenshot 2022-09-27 at 22 39 59" src="https://user-images.githubusercontent.com/37377238/192591750-8c47d67d-6f5b-41c8-8622-805193696e2f.png">  <img width="333" alt="Screenshot 2022-09-27 at 22 39 40" src="https://user-images.githubusercontent.com/37377238/192591697-bea8859b-296c-4ea4-94e4-2073b1709202.png">  <img width="335" alt="Screenshot 2022-09-27 at 22 39 20" src="https://user-images.githubusercontent.com/37377238/192591632-18cc74c3-5133-4b27-8827-794ab53b6c3f.png">
 
-![](../../../../../../var/folders/b8/2qcrybqs7wsc0rrxdv4pdw4h0000gn/T/TemporaryItems/NSIRD_screencaptureui_d3H4qn/Screenshot 2022-09-27 at 22.33.15.png)
+
 
 ## Getting Started
 
