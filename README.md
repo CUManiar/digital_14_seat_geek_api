@@ -114,7 +114,7 @@ Go to project\build\ios\ipa\digital_14.ipa
 **iOS**
 
 
-1. Start the terminal and cd to the project directory
+1. Start the terminal and go to the project directory
 2. Run command: `open -a Simulator` - It will open up the iOS device
 3. Run Command: `flutter run` - It will start the app in the iOS Simulator
 
